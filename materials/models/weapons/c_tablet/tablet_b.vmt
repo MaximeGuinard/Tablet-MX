@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\c_tablet/tablet_b"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+
+	"$phong" "1"
+	//commented out to use the exponent mask
+	//"$phongexponent" "255"
+	"$phongboost" "2.5"
+
+	//scales up the exponent texture which usually only has about 120 levels of exponent
+	"$phongexponentfactor"  "255"
+	"$phongalbedotint" "1"
+
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "5"
+}
